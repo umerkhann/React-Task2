@@ -3,9 +3,7 @@ function Child4(){
     return(
         <>
         {array.map((val)=> (
-            <h5>
-                index = {val}
-            </h5>
+            <h5>index = {val}</h5>
         ))}
         </>
     )
